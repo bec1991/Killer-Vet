@@ -7,6 +7,7 @@ using UnityEngine.UI;
   // this script is responcible for adding and maintaining characters in the scene
 public class CharacterManager : MonoBehaviour
 {
+    /*
     
     public static CharacterManager instance; 
 
@@ -60,5 +61,6 @@ public class CharacterManager : MonoBehaviour
         return newCharacter;
     }
 
+    */
     
 }

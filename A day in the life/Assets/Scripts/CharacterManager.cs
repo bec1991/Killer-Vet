@@ -7,8 +7,8 @@ using UnityEngine.UI;
   // this script is responcible for adding and maintaining characters in the scene
 public class CharacterManager : MonoBehaviour
 {
-    /*
-    
+   
+        
     public static CharacterManager instance; 
 
     //All characters must be attached to the character panel
@@ -31,7 +31,7 @@ public class CharacterManager : MonoBehaviour
     }
 
     //try to get character name provided from the character list.
-    public Character GetCharacter(string, characterName, bool createCharacterIfDoesNotExist = true)
+    public Character GetCharacter(string characterName, bool createCharacterIfDoesNotExist = true)
     {   
 
         //search dictionry to find the character quickly if it is already in our scene
@@ -40,6 +40,7 @@ public class CharacterManager : MonoBehaviour
         {
             return characters [index];
         }
+
         else if(createCharacterIfDoesNotExist)
         {
             return CreateCharacter (characterName);
@@ -52,7 +53,7 @@ public class CharacterManager : MonoBehaviour
     //creates character
     //returns the character
 
-    public Character CreateCharacter(string characterName);
+    public Character CreateCharacter(string characterName)
     {
         Character newCharacter = new Character (characterName);
         characterDictionary.Add (characterName, characters.Count);
@@ -61,6 +62,6 @@ public class CharacterManager : MonoBehaviour
         return newCharacter;
     }
 
-    */
-    
+   
+
 }

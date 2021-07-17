@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class Character : MonoBehaviour
 {
-    public string CharacterName;
+    public string characterName;
     // the root is the container for all images related to the character in the scene
     //the root object.
     [HideInInspector]public RectTransform root;
@@ -15,7 +15,7 @@ public class Character : MonoBehaviour
     public bool isMultiLayerCharacter{get {return renderers.renderer == null;}}
 
     //create new character
-    public Character (string_name)
+    public Character (string _name)
     {
         CharacterManager cm = CharacterManager.instance;
         // locates the character Prefab
@@ -26,7 +26,7 @@ public class Character : MonoBehaviour
         root = ob.GetComponent<RectTransform> ();
         characterName = _name; 
 
-        renderers.renderer = ob.GetComponentInChildren<RawImage> ();
+        renderers.renderer = ob.GetComponentInChildren<RawImage>();
         if(isMultiLayerCharacter)
         {   
             // these are what I called them in the prefab

@@ -2,15 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueScript : MonoBehaviour
+public class Dialog : MonoBehaviour
 {
+
+    
+    DialogSystem dialog; 
+
+    void Start()
+    {    
+        dialog = DialogSystem.instance;
+
+    }
+
     public string[] s = new string[]
-        {
+    {
         "This is a test:Bec",
         "Hope this works!",
         "Hell yeah it works"
-        };
-    // Scene 2 "There's a pet here. The owner's crying in the back. We're not sure how much longer it has.: Assistant"
+
+        // Scene 2 "There's a pet here. The owner's crying in the back. We're not sure how much longer it has.: Assistant"
     // Scene 3 "Is there anything you could do?: Assistant"
     // Scene 4 "Please you have to save her.: Client"
     // Scene 5 "We need her blood work, X Rays a catheter and monitoring STAT!: Vet"
@@ -26,4 +36,37 @@ public class DialogueScript : MonoBehaviour
     // Scene 16 "IDIOT! We can't afford after hour surgery! Not to mention that you adjusted the bill to make it more affordable. I hope you know your pay will be docked!: Vet Clinic Manager"
     // Scene 17 "When a soul is suffering and there is no treatment, it's not only acceptable but compassionate to euthanise.: Not sure"
     // Scene 18 "Vet Death Facts.: Not sure"
+    };
+
+    
+
+    int index = 0;
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            if(!dialog.isSpeaking || dialog.isWaitingForUserInput)
+            {
+                if(index>= s.Length)
+                {
+                    return;
+                }
+
+                Say(s[index]);
+                index++;
+            } 
+
+        }
+    }
+
+    void Say(string s)
+    {
+        string[] parts = s.Split(':');
+        string speech = parts[0];
+        string speaker = (parts.Length >= 2) ? parts[1] : "";
+
+        dialog.Say(speech, speaker);
+    }
+
 }

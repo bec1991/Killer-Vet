@@ -96,11 +96,18 @@ public class DialogSystem : MonoBehaviour
         return retVal;
     }
 
+    //this closes the entire speach panel and stops dialog
+    public void Close()
+    {
+        StopSpeaking();
+        speechPanel.SetActive (false);
+    }
+
     [System.Serializable]
     public class ELEMENTS
     {
         
-        /// The main panel containing all dialogue related elements on the UI
+        /// The main panel containing all dialog related elements on the UI
         
         public GameObject speechPanel;
         public Text speakerNameText;

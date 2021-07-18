@@ -1208,7 +1208,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1108583736
 GameObject:
@@ -1304,7 +1304,7 @@ RectTransform:
   - {fileID: 860771410}
   - {fileID: 2082507095}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1551,7 +1551,7 @@ GameObject:
   - component: {fileID: 1256809077}
   - component: {fileID: 1256809076}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Core
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1569,7 +1569,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1256809076
 MonoBehaviour:
@@ -1580,13 +1580,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1256809074}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2257a42758a1d4a45b2c54c2469072a7, type: 3}
+  m_Script: {fileID: 11500000, guid: effcc0e126c50f44fac72a67593e88dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  s:
-  - This is a test:Bec
-  - Hope this works!
-  - Hell yeah it works
+  characterPanel: {fileID: 59613302}
+  characters: []
 --- !u!114 &1256809077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2033,3 +2031,76 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082507094}
   m_CullTransparentMesh: 1
+--- !u!1 &2090018876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2090018879}
+  - component: {fileID: 2090018878}
+  - component: {fileID: 2090018877}
+  m_Layer: 0
+  m_Name: Testing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2090018877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090018876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289caff223529144d9463f8a3845ffec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vet:
+    root: {fileID: 0}
+    characterName: 
+    renderers:
+      renderer: {fileID: 0}
+      bodyRenderer: {fileID: 0}
+      expressionRenderer: {fileID: 0}
+  moveTarget: {x: 0, y: 0}
+  moveSpeed: 3
+  smooth: 1
+  speech:
+  - hi there
+  - working
+--- !u!114 &2090018878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090018876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04067b2c4e9e4f04eb1122ad93af81e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  s:
+  - This is a test:Bec
+  - Hope this works!
+  - Hell yeah it works
+--- !u!4 &2090018879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090018876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 937.14087, y: 528.34814, z: -791.53345}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

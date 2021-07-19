@@ -640,7 +640,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0.72463506, g: 0.7967168, b: 0.8679245, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1602,7 +1602,7 @@ MonoBehaviour:
     speakerNameText: {fileID: 125356381}
     speechText: {fileID: 68348809}
   isWaitingForUserInput: 0
-  targetSpeech: yo
+  targetSpeech: 
 --- !u!1 &1439278923
 GameObject:
   m_ObjectHideFlags: 0
@@ -2061,32 +2061,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 289caff223529144d9463f8a3845ffec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VetOne:
+  Vet:
     root: {fileID: 0}
     characterName: 
     renderers:
       renderer: {fileID: 0}
       bodyRenderer: {fileID: 0}
       expressionRenderer: {fileID: 0}
-  Assistant:
-    root: {fileID: 0}
-    characterName: 
-    renderers:
-      renderer: {fileID: 0}
-      bodyRenderer: {fileID: 0}
-      expressionRenderer: {fileID: 0}
-  nextScene: SceneTwoDialog
   moveTarget: {x: 0, y: 0}
   moveSpeed: 3
   smooth: 1
   speech:
-  - 'There''s a pet here.  '
-  - The owner's crying in the back.
-  - We're not sure how much longer it has.
-  - Is there anything you could do?
-  - Of course I'll try
-  - ...
-  speaker: 010000000100000001000000010000000000000000000000
+  - hi there
+  - working
 --- !u!114 &2090018878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2099,7 +2086,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04067b2c4e9e4f04eb1122ad93af81e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  s: []
+  s:
+  - scene two!
+  - 
+  - 
+  nextScene: next scene
 --- !u!4 &2090018879
 Transform:
   m_ObjectHideFlags: 0

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Dialog : MonoBehaviour
 {
 
@@ -38,6 +38,7 @@ public class Dialog : MonoBehaviour
     // Scene 18 "Vet Death Facts.: Not sure"
     };
 
+
     
 
     int index = 0;
@@ -50,6 +51,7 @@ public class Dialog : MonoBehaviour
             {
                 if(index>= s.Length)
                 {
+                   
                     return;
                 }
 
@@ -58,6 +60,7 @@ public class Dialog : MonoBehaviour
             } 
 
         }
+
     }
 
     void Say(string s)

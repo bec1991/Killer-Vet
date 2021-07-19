@@ -165,10 +165,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 213144753}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f67f85fda07fad4bb446d01c8d7e5c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 353d8bd3568529840a2e37ef13b9fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spinePlace: {fileID: 296716107}
+  organPlace: {fileID: 296716107}
+  locked: 0
 --- !u!61 &213144756
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -699,10 +700,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1150967166}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cfc7003b4de05a4d9ec08e8230bca93, type: 3}
+  m_Script: {fileID: 11500000, guid: 353d8bd3568529840a2e37ef13b9fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stomachPlace: {fileID: 440595412}
+  organPlace: {fileID: 440595412}
+  locked: 0
 --- !u!1 &1232156766
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,10 +942,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1463453261}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71b9e6a51801bc647b070c3e2faa3f99, type: 3}
+  m_Script: {fileID: 11500000, guid: 353d8bd3568529840a2e37ef13b9fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brainPlace: {fileID: 2022841806}
+  organPlace: {fileID: 2022841806}
+  locked: 0
 --- !u!1 &1806692536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,10 +1067,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1806692536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1cdebbe8b9d7d444b024ef4be9aa2c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 353d8bd3568529840a2e37ef13b9fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartPlace: {fileID: 528109965}
+  organPlace: {fileID: 528109965}
+  locked: 0
 --- !u!1 &2020390853
 GameObject:
   m_ObjectHideFlags: 0

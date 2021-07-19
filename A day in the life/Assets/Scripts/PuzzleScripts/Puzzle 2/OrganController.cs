@@ -2,18 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Brain : MonoBehaviour
+public class OrganController : MonoBehaviour
 {
     [SerializeField]
-    private Transform brainPlace;
+    private Transform organPlace;
 
     private Vector2 initialPosition;
 
-    private float deltaY;
+    public bool locked;
 
-    private float deltaX;
-
-    public static bool locked;
+    private float leeway = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -23,10 +21,10 @@ public class Brain : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (Mathf.Abs(transform.position.x - brainPlace.position.x) <= 0.5f &&
-                        Mathf.Abs(transform.position.y - brainPlace.position.y) <= 0.5f)
+        if (Mathf.Abs(transform.position.x - organPlace.position.x) <= leeway &&
+                        Mathf.Abs(transform.position.y - organPlace.position.y) <= leeway)
         {
-            transform.position = new Vector2(brainPlace.position.x, brainPlace.position.y);
+            transform.position = new Vector2(organPlace.position.x, organPlace.position.y);
             locked = true;
         }
         else
@@ -37,7 +35,7 @@ public class Brain : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        if (locked == false) 
+        if (locked == false)
         {
             transform.position = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 1);
         }

@@ -115,8 +115,10 @@ public class Character
         if(isMultiLayerCharacter)
         {   
             // these are what I called them in the prefab
-            renderers.bodyRenderer = ob.transform.Find("bodyLayer").GetComponent<Image> ();
-            renderers.expressionRenderer = ob.transform.Find("expressionLayer").GetComponent<Image> ();
+            Debug.Log(_name);
+
+            //renderers.bodyRenderer = ob.transform.Find("bodyLayer").GetComponent<Image> ();
+            //renderers.expressionRenderer = ob.transform.Find("expressionLayer").GetComponent<Image> ();
         }
 
         dialog = DialogSystem.instance;

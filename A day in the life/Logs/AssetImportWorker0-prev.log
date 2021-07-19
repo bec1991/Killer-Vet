@@ -15,11 +15,11 @@ D:/GitHub/Killer-Vet/A day in the life
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59536
+60432
 Successfully changed project path to: D:/GitHub/Killer-Vet/A day in the life
 D:/GitHub/Killer-Vet/A day in the life
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 91.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
 [Subsystems] Discovering subsystems at path C:/Program Files/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,29 +35,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2021.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001755 seconds.
+Registered in 0.002058 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.842 seconds
+- Completed reload, in  1.923 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003265 seconds.
+Registered in 0.003059 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 92.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.023 seconds
+- Completed reload, in  1.137 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
@@ -65,313 +65,6 @@ System memory in use before: 128.0 MB.
 System memory in use after: 128.1 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3829.
-Total: 2.342800 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.142100 ms MarkObjects: 1.877100 ms  DeleteObjects: 0.099000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Resources/Characters/Character[VetSad].prefab
-  artifactKey: Guid(701190d0a8a1d7f4581080f7c17ac4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Characters/Character[VetSad].prefab using Guid(701190d0a8a1d7f4581080f7c17ac4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f745a78f73fdf5070db0ef603918971d') in 0.055478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 214.159052 seconds.
-  path: Assets/Resources/Characters/Character[VetSad] .prefab
-  artifactKey: Guid(88c61d0a768c45648937ce67307cfc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Characters/Character[VetSad] .prefab using Guid(88c61d0a768c45648937ce67307cfc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161313d0d3fb2247cdac18c29bf3e5cd') in 0.010036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.107971 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/blush 18.png
-  artifactKey: Guid(840a8fe88789eb74f93e16666d991503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/blush 18.png using Guid(840a8fe88789eb74f93e16666d991503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d040fd6b2e06a3e41451cd56572ae38') in 0.185811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/blush.png
-  artifactKey: Guid(10b2ad19bfbbf324196a6d0401b25b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/blush.png using Guid(10b2ad19bfbbf324196a6d0401b25b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240678c7a2329abbb7a02bf1cf1caa07') in 0.106280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.622417 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut
-  artifactKey: Guid(c1a51daff5f7ab949b85875f5791e7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut using Guid(c1a51daff5f7ab949b85875f5791e7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85278801181169df945b5e37c88ecf10') in 0.006816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.110325 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut/c_brows.png
-  artifactKey: Guid(167b4bb02a5e36f47913938f4ee916ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut/c_brows.png using Guid(167b4bb02a5e36f47913938f4ee916ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eed5bc5e7aa3d3ede29f027dd1e4d2d') in 0.189721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut/c_eyes1.png
-  artifactKey: Guid(324e5ff0cf45d3a46afaf16cc81722c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut/c_eyes1.png using Guid(324e5ff0cf45d3a46afaf16cc81722c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7337e1c3cf60c2529a3ea2c600d8804a') in 0.103752 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut/c_eyes2.png
-  artifactKey: Guid(b466c0c09ecc6694f9e68ea8fcd4024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut/c_eyes2.png using Guid(b466c0c09ecc6694f9e68ea8fcd4024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb1e278118fd76e51d9b9e1a6f8f2f0') in 0.084685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut/c_eyes0.png
-  artifactKey: Guid(eca057e75be1e0940afdcfe2ccbac54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut/c_eyes0.png using Guid(eca057e75be1e0940afdcfe2ccbac54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b15a377c67155e24f3bebf7ead36c18') in 0.094825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut/c_mouth0.png
-  artifactKey: Guid(0727a0a2117bcb048b6d830ab859bec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions Cut/c_mouth0.png using Guid(0727a0a2117bcb048b6d830ab859bec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc03f516b93f2ac126d240fc848d494') in 0.008440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 123.862227 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut/c_brows.png
-  artifactKey: Guid(83287f9243128344c9ff93784c894e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut/c_brows.png using Guid(83287f9243128344c9ff93784c894e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708977d0ac5acdc6261311c2b750f71f') in 0.266372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut/c_eyes2.png
-  artifactKey: Guid(53a20f4748ef10d4a883b30d18bd5062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut/c_eyes2.png using Guid(53a20f4748ef10d4a883b30d18bd5062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fdecd9a15dbe55a8b6f5305981711c') in 0.023305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut/c_mouth0.png
-  artifactKey: Guid(be3cbe591ef3e68458d4761bbd9750bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut/c_mouth0.png using Guid(be3cbe591ef3e68458d4761bbd9750bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a4b1ced460a41870105aed70ef9616') in 0.119045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut/c_eyes0.png
-  artifactKey: Guid(2a3595ed8fa12ff4eb76f8bb135cb449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut/c_eyes0.png using Guid(2a3595ed8fa12ff4eb76f8bb135cb449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ca46a86e6480189f9cb12478ae40a1') in 0.050490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18/c_eyes0.png
-  artifactKey: Guid(0df42899b7c39b14486d8c6a27d82ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18/c_eyes0.png using Guid(0df42899b7c39b14486d8c6a27d82ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da3a999964fc0706757b3fb105cc6c6') in 0.008949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18/c_eyes2.png
-  artifactKey: Guid(f30fade7a99c37e4ba306d05625a25ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18/c_eyes2.png using Guid(f30fade7a99c37e4ba306d05625a25ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46e0b5a00a471fb12aaa76a63cb6e01') in 0.007949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18/c_eyes1.png
-  artifactKey: Guid(03d23e9eaf0123d44b0fedaf67c9b17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18/c_eyes1.png using Guid(03d23e9eaf0123d44b0fedaf67c9b17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390ac9631c09efa57b2c43789a7e3abe') in 0.043784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18/c_brows.png
-  artifactKey: Guid(5ee4d008759e45341a462840bdc0f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18/c_brows.png using Guid(5ee4d008759e45341a462840bdc0f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb3c596d4c3a3d5cf3591259e9fea06') in 0.008902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18/c_mouth0.png
-  artifactKey: Guid(a54b194a44c33f644be88853ccc640b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18/c_mouth0.png using Guid(a54b194a44c33f644be88853ccc640b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4f757f5b1b41c056fb9e0b1be8ecb1') in 0.009005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut/c_eyes1.png
-  artifactKey: Guid(f0d08b22b7a02464a8da13226837ced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut/c_eyes1.png using Guid(f0d08b22b7a02464a8da13226837ced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9869cc45c53c5b6b9591e0e51bae1eae') in 0.008212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.687771 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut
-  artifactKey: Guid(bd30b5da642abf24cb68aae5f012ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 Cut using Guid(bd30b5da642abf24cb68aae5f012ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d24db5ddfd8cecb0c4aefa9231566e4') in 0.006521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.212891 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18
-  artifactKey: Guid(ebd0c243ea0f0ed4a8675ecdbf8c7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions 18 using Guid(ebd0c243ea0f0ed4a8675ecdbf8c7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1ced251fb5f730bb50e0e1b487cd18') in 0.005974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.565380 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions
-  artifactKey: Guid(235d14b1951dbd84dbeb11792ae5cf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions using Guid(235d14b1951dbd84dbeb11792ae5cf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd607b3b728d2c187a21bb6f3c7a1fb') in 0.006937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.087967 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions/c_brows.png
-  artifactKey: Guid(7daf9b181f6a62346b11f46957c15dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions/c_brows.png using Guid(7daf9b181f6a62346b11f46957c15dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e3c71389c265a9fb226ddfbeadd09b') in 0.010335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions/c_eyes0.png
-  artifactKey: Guid(4e4006272e23fcc48804fb8bd21c0c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions/c_eyes0.png using Guid(4e4006272e23fcc48804fb8bd21c0c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48f8be20d6d7c964c715f40ff5ca5c7') in 0.035143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions/c_eyes2.png
-  artifactKey: Guid(dac20a5c19bd86443b458453cb1f5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions/c_eyes2.png using Guid(dac20a5c19bd86443b458453cb1f5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37491dbf6634ff0b6082d4e20525aadd') in 0.017532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Resources/Images/Characters/Lee(Assistant)/Expressions/c_eyes1.png
-  artifactKey: Guid(b461b123bbb4eb246b3e40c835beda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/Lee(Assistant)/Expressions/c_eyes1.png using Guid(b461b123bbb4eb246b3e40c835beda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67492d1731d48f5500f46d04bcd0b6a9') in 0.018554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 426.030278 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap
-  artifactKey: Guid(546c7fea4d582d04bbfdaa1f59cd2102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap using Guid(546c7fea4d582d04bbfdaa1f59cd2102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0bbc5ae64a12f71e59a548aa98cb26') in 0.033019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.256759 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap
-  artifactKey: Guid(86ded216a039fcd43bff098c71ae5ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap using Guid(86ded216a039fcd43bff098c71ae5ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aa41b0227bddc2257ae4406c8abc54') in 0.005822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.069185 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid
-  artifactKey: Guid(b62558299452b5c43926eac19edd3aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid using Guid(b62558299452b5c43926eac19edd3aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155f17bde2888aee720e28391a61e97c') in 0.005727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059047 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1691.png
-  artifactKey: Guid(de57d4712a72f41428b8e2e71789f455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1691.png using Guid(de57d4712a72f41428b8e2e71789f455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0913b89109dcf31d21f2c86a2ad153fd') in 0.015244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1700.png
-  artifactKey: Guid(19aeb360239357542a92988d85e49efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1700.png using Guid(19aeb360239357542a92988d85e49efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5926ca4ed5fda87523d69d2e30c777ff') in 0.015327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1721.png
-  artifactKey: Guid(0e7d8de8316f93643848f3681c62a92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1721.png using Guid(0e7d8de8316f93643848f3681c62a92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d65a5b566a244c2c1a6cd2d93c0e9fe') in 0.014303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1694.png
-  artifactKey: Guid(bd1f43622f8879441909efbe48c65e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1694.png using Guid(bd1f43622f8879441909efbe48c65e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabbf6642aa0accc34cf715ad8b456ca') in 0.015143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1736.png
-  artifactKey: Guid(147b60a8d5ad71e48ae95a1f964b5a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1736.png using Guid(147b60a8d5ad71e48ae95a1f964b5a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd417b992c5b70eda79686c89153d55') in 0.012875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1703.png
-  artifactKey: Guid(371819201f0db3f479770a6ce3c049fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1703.png using Guid(371819201f0db3f479770a6ce3c049fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ac2ebdf856249b9ec03c804d799704') in 0.014131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1724.png
-  artifactKey: Guid(202098b3ec8b8c447986e8c3a1bddc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1724.png using Guid(202098b3ec8b8c447986e8c3a1bddc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5728e30f9ce2596db35c638623abb774') in 0.014016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1727.png
-  artifactKey: Guid(140d8599c6f8a7d40a3e5ccae082cc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1727.png using Guid(140d8599c6f8a7d40a3e5ccae082cc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706b450d9a426a952a6a92143d404793') in 0.014680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1718.png
-  artifactKey: Guid(fa50f978bc908c747b59cef968fc2551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1718.png using Guid(fa50f978bc908c747b59cef968fc2551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38e1219b63e66c98de50f54bd5d013a') in 0.014103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1709.png
-  artifactKey: Guid(f2abbe766bf128d459ba412e373ce035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1709.png using Guid(f2abbe766bf128d459ba412e373ce035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ba491052aadf2414190b4030a3f646') in 0.017079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1730.png
-  artifactKey: Guid(1714b1ccc59b0e14e826798f3a3c1008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1730.png using Guid(1714b1ccc59b0e14e826798f3a3c1008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2352550e96856063f752f418ae078e') in 0.015790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1733.png
-  artifactKey: Guid(2cf0a7d70b2be6346a850d93f3ae8aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1733.png using Guid(2cf0a7d70b2be6346a850d93f3ae8aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02aed7d748a95bb5b72681dc69c8760') in 0.012757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1706.png
-  artifactKey: Guid(c5613818d1aa38647bc552e5bf10d922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1706.png using Guid(c5613818d1aa38647bc552e5bf10d922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985d83b3c3f9899ea8d223be8282d210') in 0.012850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1697.png
-  artifactKey: Guid(bc499a50c708c844b9d7b6e20dbcf0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1697.png using Guid(bc499a50c708c844b9d7b6e20dbcf0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31c226a3ca1d7cdbe1aa61fc4aa0e20') in 0.013980 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1712.png
-  artifactKey: Guid(6a99698260f3b7c45a6707a867c597a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1712.png using Guid(6a99698260f3b7c45a6707a867c597a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a055cc4c1c59bfcc54c783bdf2681a') in 0.014724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1739.png
-  artifactKey: Guid(3e50f819ec566d1429052eadc9eafcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1739.png using Guid(3e50f819ec566d1429052eadc9eafcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0868aef5d38a782eee42732d9f6bf4e9') in 0.015636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1715.png
-  artifactKey: Guid(191fa5296f75ddc4793799f5e901f946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Images/Characters/PC Computer - Nurse Love Addiction Hakuisei Aijou Izonshou - Nurse Uniform sans Cap/Nurse Uniform sans Cap/Mid/chr1715.png using Guid(191fa5296f75ddc4793799f5e901f946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96f65e1e5cf0f071cf3c63daa4c521a') in 0.014414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 128.206122 seconds.
-  path: Assets/Resources/Characters/Character[Assistant].prefab
-  artifactKey: Guid(4b83fe7dde6f1894d9fb89950c56acd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Characters/Character[Assistant].prefab using Guid(4b83fe7dde6f1894d9fb89950c56acd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc1347491f16951f603d4a8b2a88547') in 0.007774 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003069 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.4 MB.
-System memory in use after: 170.5 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4396.
-Total: 2.945200 ms (FindLiveObjects: 0.291800 ms CreateObjectMapping: 0.166700 ms MarkObjects: 2.397400 ms  DeleteObjects: 0.088400 ms)
+Total: 2.263800 ms (FindLiveObjects: 0.229500 ms CreateObjectMapping: 0.149200 ms MarkObjects: 1.783000 ms  DeleteObjects: 0.101100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

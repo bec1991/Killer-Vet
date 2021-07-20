@@ -7,7 +7,11 @@ public class CharacterTesting : MonoBehaviour
 {
     public Character VetOne;
     public Character Assistant;
-    
+    public Character Pamela;
+    public Character VetTwo;
+    public Character VetThree;
+    public Character AssistantTwo;
+
     public string nextScene;
 
 
@@ -15,7 +19,11 @@ public class CharacterTesting : MonoBehaviour
     void Start()
     {
         VetOne = CharacterManager.instance.GetCharacter("Vet", enableCreatedCharacterOnStart: false); 
+        VetTwo = CharacterManager.instance.GetCharacter(".Vet", enableCreatedCharacterOnStart: false); 
+        VetThree = CharacterManager.instance.GetCharacter("Vet...", enableCreatedCharacterOnStart: false); 
         Assistant = CharacterManager.instance.GetCharacter("Assistant", enableCreatedCharacterOnStart: false); 
+        AssistantTwo = CharacterManager.instance.GetCharacter("Assistant.", enableCreatedCharacterOnStart: false); 
+        Pamela = CharacterManager.instance.GetCharacter("Pamela", enableCreatedCharacterOnStart: false); 
     }
 
     public Vector2 moveTarget;
@@ -32,17 +40,41 @@ public class CharacterTesting : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            if(i < speech.Length) {
+            if(i < speech.Length) 
+            {
 
-                if(speaker[i] == 0) {
+                if(speaker[i] == 0) 
+                {
                   VetOne.Say(speech[i]);
-                } else if (speaker[i] == 1) {
+                } 
+
+                else if (speaker[i] == 1) 
+                {
                   Assistant.Say(speech[i]);
                 }
 
-            } else {
-                DialogSystem.instance.Close();
-                SceneManager.LoadScene(nextScene);
+                else if(speaker[i] == 2) 
+                {
+                    Pamela.Say(speech[i]);
+                }
+
+                 else if(speaker[i] == 3) 
+                {
+                    VetTwo.Say(speech[i]);
+                } 
+                else if (speaker[i] == 4) 
+                {
+                  AssistantTwo.Say(speech[i]);
+                } 
+                else if (speaker[i] == 5) 
+                {
+                  VetThree.Say(speech[i]);
+                }
+                else 
+                {
+                    DialogSystem.instance.Close();
+                    SceneManager.LoadScene(nextScene);
+                }
             }
             i++;
         }

@@ -139,6 +139,10 @@ public class Character
 
         //the expression renderer for a multi layer character
         public Image expressionRenderer;
+
+       // public Image mouthRenderer;
+
+        //public Image hairRenderer;
     }
 
     public Renderers renderers = new Renderers(); 

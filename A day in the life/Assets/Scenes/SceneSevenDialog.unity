@@ -2082,6 +2082,13 @@ MonoBehaviour:
       renderer: {fileID: 0}
       bodyRenderer: {fileID: 0}
       expressionRenderer: {fileID: 0}
+  Jane:
+    root: {fileID: 0}
+    characterName: 
+    renderers:
+      renderer: {fileID: 0}
+      bodyRenderer: {fileID: 0}
+      expressionRenderer: {fileID: 0}
   VetTwo:
     root: {fileID: 0}
     characterName: 
@@ -2115,14 +2122,20 @@ MonoBehaviour:
   moveSpeed: 3
   smooth: 1
   speech:
-  - .
-  - Sorry to bother you but,
-  - Well your first appointment was at 9
-  - but we had to move that to 9:20.
-  - The client seems pissed.
-  - She said if you're going to be disrespectful with her time, she can always leave
-    and put up a scathing review on FaceBook.
-  speaker: 030000000400000004000000040000000400000004000000
+  - Hi theres something wrong with my cat, he's unable to go to the toilet
+  - Here, let me take a look
+  - He appears to have a urinary obstruction. It will have to be removed immediately
+    or else there is a very real chance that he will die.
+  - You will have to take him to the emergency clinic down the street
+  - I'm too busy here today, Im sorry.
+  - But I cant afford that place
+  - 'Well there is a very real chance that this will happen again even after the
+    sugery, '
+  - The only option I see moving forward is to euthanise
+  - .....
+  - You're going to make me murder my pet because I am poor?!
+  - Why are you even a vet? You clearly dont care about animals
+  speaker: 0700000003000000030000000300000003000000070000000300000003000000070000000700000007000000
 --- !u!114 &2090018878
 MonoBehaviour:
   m_ObjectHideFlags: 0

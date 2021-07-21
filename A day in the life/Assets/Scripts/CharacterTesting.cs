@@ -8,9 +8,13 @@ public class CharacterTesting : MonoBehaviour
     public Character VetOne;
     public Character Assistant;
     public Character Pamela;
+    public Character Jane;
     public Character VetTwo;
+
     public Character VetThree;
     public Character VetFour;
+    public Character VetFive;
+    public Character VetSix;
     public Character AssistantTwo;
 
     public string nextScene;
@@ -20,12 +24,15 @@ public class CharacterTesting : MonoBehaviour
     void Start()
     {
         VetOne = CharacterManager.instance.GetCharacter("Vet", enableCreatedCharacterOnStart: false); 
+        VetSix = CharacterManager.instance.GetCharacter("Vet", enableCreatedCharacterOnStart: false); 
         VetTwo = CharacterManager.instance.GetCharacter(".Vet", enableCreatedCharacterOnStart: false); 
         VetThree = CharacterManager.instance.GetCharacter("Vet...", enableCreatedCharacterOnStart: false); 
         VetFour = CharacterManager.instance.GetCharacter("Vet..", enableCreatedCharacterOnStart: false); 
+        VetFive = CharacterManager.instance.GetCharacter("Vet,", enableCreatedCharacterOnStart: false); 
         Assistant = CharacterManager.instance.GetCharacter("Assistant", enableCreatedCharacterOnStart: false); 
         AssistantTwo = CharacterManager.instance.GetCharacter("Assistant.", enableCreatedCharacterOnStart: false); 
         Pamela = CharacterManager.instance.GetCharacter("Pamela", enableCreatedCharacterOnStart: false); 
+        Jane = CharacterManager.instance.GetCharacter("Jane", enableCreatedCharacterOnStart: false); 
     }
 
     public Vector2 moveTarget;
@@ -75,6 +82,18 @@ public class CharacterTesting : MonoBehaviour
                 else if (speaker[i] == 6) 
                 {
                   VetFour.Say(speech[i]);
+                }
+                else if (speaker[i] == 7) 
+                {
+                  Jane.Say(speech[i]);
+                }
+                else if (speaker[i] == 8) 
+                {
+                  VetFive.Say(speech[i]);
+                }
+                else if (speaker[i] == 9) 
+                {
+                  VetSix.Say(speech[i]);
                 }
                 else 
                 {

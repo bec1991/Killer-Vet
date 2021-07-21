@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 2353358052705532805}
   - component: {fileID: 1850813945135722837}
   m_Layer: 5
-  m_Name: 'Character[Vet..] '
+  m_Name: Character[Vet..]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

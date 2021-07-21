@@ -2115,13 +2115,9 @@ MonoBehaviour:
   moveSpeed: 3
   smooth: 1
   speech:
-  - Please you have to save her!
-  - We will need  blood work,
-  - ' X Rays, '
-  - 'catheter '
-  - 'and monitoring '
-  - STAT!
-  speaker: 020000000600000006000000060000000600000006000000
+  - '*The dog''s heart stops and she dies*'
+  - Im so sorry, I did everything I could.
+  speaker: 0000000000000000
 --- !u!114 &2090018878
 MonoBehaviour:
   m_ObjectHideFlags: 0

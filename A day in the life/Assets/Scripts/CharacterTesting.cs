@@ -10,6 +10,7 @@ public class CharacterTesting : MonoBehaviour
     public Character Pamela;
     public Character VetTwo;
     public Character VetThree;
+    public Character VetFour;
     public Character AssistantTwo;
 
     public string nextScene;
@@ -21,6 +22,7 @@ public class CharacterTesting : MonoBehaviour
         VetOne = CharacterManager.instance.GetCharacter("Vet", enableCreatedCharacterOnStart: false); 
         VetTwo = CharacterManager.instance.GetCharacter(".Vet", enableCreatedCharacterOnStart: false); 
         VetThree = CharacterManager.instance.GetCharacter("Vet...", enableCreatedCharacterOnStart: false); 
+        VetFour = CharacterManager.instance.GetCharacter("Vet..", enableCreatedCharacterOnStart: false); 
         Assistant = CharacterManager.instance.GetCharacter("Assistant", enableCreatedCharacterOnStart: false); 
         AssistantTwo = CharacterManager.instance.GetCharacter("Assistant.", enableCreatedCharacterOnStart: false); 
         Pamela = CharacterManager.instance.GetCharacter("Pamela", enableCreatedCharacterOnStart: false); 
@@ -69,6 +71,10 @@ public class CharacterTesting : MonoBehaviour
                 else if (speaker[i] == 5) 
                 {
                   VetThree.Say(speech[i]);
+                }
+                else if (speaker[i] == 6) 
+                {
+                  VetFour.Say(speech[i]);
                 }
                 else 
                 {

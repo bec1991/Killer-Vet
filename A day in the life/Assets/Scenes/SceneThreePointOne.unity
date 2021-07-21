@@ -326,10 +326,10 @@ RectTransform:
   m_Father: {fileID: 532696351}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.08729621, y: 0.20400001}
+  m_AnchorMin: {x: 0.119, y: 0.20400001}
   m_AnchorMax: {x: 0.91018885, y: 0.772}
-  m_AnchoredPosition: {x: 0.1663208, y: 1.3388023}
-  m_SizeDelta: {x: -0.67562866, y: 1.9110031}
+  m_AnchoredPosition: {x: 0.8195034, y: 0.19165039}
+  m_SizeDelta: {x: -1.9820004, y: -0.38331}
   m_Pivot: {x: 0.4999999, y: 0.5000001}
 --- !u!114 &125356380
 MonoBehaviour:
@@ -1105,7 +1105,7 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.41483575, y: 0.52231205}
 --- !u!114 &911443130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2115,13 +2115,8 @@ MonoBehaviour:
   moveSpeed: 3
   smooth: 1
   speech:
-  - Please you have to save her!
-  - We will need  blood work,
-  - ' X Rays, '
-  - 'catheter '
-  - 'and monitoring '
-  - STAT!
-  speaker: 020000000600000006000000060000000600000006000000
+  - '*Takes deep breath to compose self*'
+  speaker: 05000000
 --- !u!114 &2090018878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2134,7 +2129,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04067b2c4e9e4f04eb1122ad93af81e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  s: []
+  s:
+  - 
+  - 
+  - 
 --- !u!4 &2090018879
 Transform:
   m_ObjectHideFlags: 0

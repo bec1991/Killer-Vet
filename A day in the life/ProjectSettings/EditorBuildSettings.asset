@@ -38,4 +38,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneTenImage.unity
     guid: e6bf7cde8650c56418b22931f3c3b366
+  - enabled: 1
+    path: Assets/Scenes/SceneElevenDialog.unity
+    guid: 260f7455710d1a5499813d555f0a2db4
+  - enabled: 1
+    path: Assets/Scenes/SceneTwelveDialog.unity
+    guid: 40b667cf175a55c44b3064262ac27d15
+  - enabled: 1
+    path: Assets/Scenes/SceneThirteenDialog.unity
+    guid: 7b67b7c2032d7b44cafabb950d60d12a
   m_configObjects: {}

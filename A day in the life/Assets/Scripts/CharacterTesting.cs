@@ -96,10 +96,13 @@ public class CharacterTesting : MonoBehaviour
                   VetSix.Say(speech[i]);
                 }
                 else 
+                
                 {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                     DialogSystem.instance.Close();
-                    SceneManager.LoadScene(nextScene);
+                   
                 }
+
             }
             i++;
         }

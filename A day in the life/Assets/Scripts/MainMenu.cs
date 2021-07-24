@@ -9,12 +9,13 @@ public class MainMenu : MonoBehaviour
 
     public void GoBackScenes()
     {
-        SceneManager.LoadScene("");
+       // SceneManager.LoadScene("");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void Play()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 
@@ -25,13 +26,13 @@ public class MainMenu : MonoBehaviour
 
     }
 
-    /*
-    public void GoToHowToPlay()
+    */
+    public void GoToNextScene()
     {
-        SceneManager.LoadScene("HowToPlay");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
-    */
+   
 
     public void GoToMainMenu()
     {

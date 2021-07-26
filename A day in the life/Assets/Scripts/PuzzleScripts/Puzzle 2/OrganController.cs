@@ -1,17 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class OrganController : MonoBehaviour
 {
+    //public GameObject Pieces;
+
+    public static OrganController instance;
+
     [SerializeField]
     private Transform organPlace;
+    public GameObject pooper;
 
     private Vector2 initialPosition;
 
     public bool locked;
 
     private float leeway = 1;
+
+    public UnityEvent Wazfaz;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +34,12 @@ public class OrganController : MonoBehaviour
         {
             transform.position = new Vector2(organPlace.position.x, organPlace.position.y);
             locked = true;
+            //When locked go parent.GetComponent < whatever the script is > ().updateLocked
+            //GameObject Pieces = GameObject.FindGameObjectWithTag("Pieces");
+            //var Pieces = GameObject.Find("Pieces");
+            //Pieces.GetComponent<OrganManager>().updateLocked;
+            Wazfaz.Invoke();
+            print("bruh");
         }
         else
         {
